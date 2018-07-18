@@ -1,2 +1,3 @@
 # Emotion Recognition
-Test recognize emotion of Microsoft Azure API
+Test recognize emotion of Algorithmia Platform
+https://algorithmia.com/algorithms/deeplearning/EmotionRecognitionCNNMBP

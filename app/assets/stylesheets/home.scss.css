@@ -137,15 +137,15 @@ h3{
   display: flex;
 }
 
+.app #start-camera.visible{
+  display: block;
+}
+
 
 
 @media(max-width: 1000px){
   .container{
     margin: 40px;
-  }
-
-  .app #start-camera.visible{
-    display: block;
   }
 
   .app .controls a i{
