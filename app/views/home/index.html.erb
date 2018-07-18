@@ -1,0 +1,46 @@
+<h3>Demo: Take a Selfie to know your emotion</h3>
+
+<div class="container">
+
+  <div class="app">
+
+    <a href="#" id="start-camera" class="visible">Click here to start the app.</a>
+    <video id="camera-stream"></video>
+    <img id="snap">
+
+    <p id="error-message"></p>
+
+    <div class="controls">
+      <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
+      <a href="#" id="take-photo" title="Take Photo"><i class="material-icons">camera_alt</i></a>
+      <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>
+    </div>
+
+    <!-- Hidden canvas element. Used for taking snapshot of video. -->
+    <canvas></canvas>
+
+  </div>
+  <div class="loading hidden">
+    <div class="wBall" id="wBall_1">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_2">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_3">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_4">
+      <div class="wInnerBall"></div>
+    </div>
+    <div class="wBall" id="wBall_5">
+      <div class="wInnerBall"></div>
+    </div>
+  </div>
+
+  <div class='resultWrapper'>
+    <span>Result: </span>
+    <span id="result"></span>
+  </div>
+
+</div>
