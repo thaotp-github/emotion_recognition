@@ -99,7 +99,7 @@ take_photo_btn.addEventListener("click", function(e){
     controls.classList.add("visible");
   }).success(function(response){
     if(response.results.length != 0){
-      result_div.innerHTML += response.results[0].emotions[0].label
+      result_div.innerHTML = response.results[0].emotions[0].label
     }else{
       result_div.innerHTML = 'undefined'
     }
